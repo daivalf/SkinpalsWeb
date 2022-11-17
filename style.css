@@ -76,6 +76,39 @@ body {
     height: 100vh;
 }
 
+/* Custom CSS */
+
+	.background1 {
+		background: url(images/ourteam.jpg) no-repeat;
+		background-size: cover;
+		height:100vh;
+		box-sizing:border-box;
+		}
+		
+	.headline1{
+		color: #fff;
+		font-size: 40px;
+		text-align: left;
+		padding-top: 180px;
+		font-weight: bold;
+		}
+		
+		.subheadline1{
+		color: #fff;
+		font-size: 18px;
+		text-align: left;
+		padding-top: 20px;
+		}
+		
+		.row{
+		padding-top: 2rem;
+		text-align:center;
+		}
+		
+		
+		#middle2{
+		padding-left: 500px;
+		}
 
 /* responsive */
 
