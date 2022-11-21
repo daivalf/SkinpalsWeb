@@ -81,7 +81,8 @@ body {
 	.background1 {
 		background: url(images/ourteam.jpg) no-repeat;
 		background-size: cover;
-		height:100vh;
+		width:100%;
+		height:auto;
 		box-sizing:border-box;
 		}
 		
@@ -106,8 +107,17 @@ body {
 		}
 		
 		
-		#middle2{
-		padding-left: 500px;
+		#founderMiddle{
+		display:inline-block;
+		margin: auto;
+		text-align:center;
+		}
+		
+		#cardMiddle{
+		display:inline-block;
+		margin: auto;
+		text-align: center;
+		width: 15rem;
 		}
 
 /* responsive */
