@@ -74,15 +74,34 @@ body {
 
 .w-100 {
     height: 100vh;
+	width:auto; 
+	object-fit:cover;
 }
 
 /* Custom CSS */
-
+		
 	.background1 {
 		background: url(images/ourteam.jpg) no-repeat;
 		background-size: cover;
 		width:100%;
 		height:auto;
+		box-sizing:border-box;
+		}
+	
+	.features1 {
+		background: url(images/scan.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+		width:100%;
+		height:100vh;
+		box-sizing:border-box;
+		}
+	
+	.features2 {
+		background: url(images/kubuku.jpg) no-repeat;
+		background-size: cover;
+		width:100%;
+		height:100vh;
 		box-sizing:border-box;
 		}
 		
@@ -93,7 +112,7 @@ body {
 		padding-left: 20px;
 		padding-top: 180px;
 		font-weight: bold;
-			display:inline-block;
+		display:inline-block;
 		margin: auto;
 		}
 		
